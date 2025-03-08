@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Javascript & MERN STACK. </b>
               </i>
               <br />
               <br />
@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  AI .
                 </b>
               </i>
               <br />
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/jaygupta18"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/jaygupta79"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,17 +87,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/https://www.linkedin.com/in/jay-kumar-gupta-893533303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li> 
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/jay_gupta_18"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -111,5 +111,5 @@ function Home2() {
       </Container>
     </Container>
   );
-}
+} 
 export default Home2;

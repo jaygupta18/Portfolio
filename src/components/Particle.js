@@ -1,8 +1,8 @@
 import React from "react";
-import Particles from "react-tsparticles";
+import Particles from "react-tsparticles";  
 
 function Particle() {
-  return (
+  return (  
     <Particles
       id="tsparticles"
       params={{
