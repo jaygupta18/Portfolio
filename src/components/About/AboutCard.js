@@ -8,29 +8,32 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">JAY KUMAR GUPTA </span>
+            Hello World! I'm <span className="purple">JAY KUMAR GUPTA </span>
             from <span className="purple"> Jabalpur, India. </span>
             <br />
-            I am a B.TECH CSE undergraduating student at Jabalpur Engineering College .
+            I am a **B.Tech Computer Science and Engineering** undergrad student at **Jabalpur Engineering College**, driven by a deep interest in **Web Development and Data Structures & Algorithms**.
             <br />
-            Apart from coding, some other activities that I love to do!
+            My goal is to leverage robust code and scalable architecture to solve real-world problems.
+            <br />
+            <br />
+            Beyond the keyboard, here are a few things I enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> **Competitive Programming**, which sharpens my problem-solving and logical thinking.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring the new TECH
+              <ImPointRight /> **Continuously Exploring New Tech Stacks** (like current trends in AI/ML or new JS frameworks) to stay ahead of the curve.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> **Reading and Traveling**, as they provide fresh perspectives and foster creativity—essential for innovation.
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "rgb(155 126 172)", marginTop: "20px" }}>
+            "The best way to predict the future is to create it, one impactful line of code at a time."{" "}
           </p>
-          <footer className="blockquote-footer">Jay Gupta</footer>
+          <footer className="blockquote-footer">Jay Kumar Gupta</footer>
         </blockquote>
       </Card.Body>
     </Card>
