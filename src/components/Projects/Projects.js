@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Mailex from "../../Assets/Projects/mailex.png";
+import youtube from "../../Assets/Projects/YTcontentTeam.png";
 import  CRMweb from "../../Assets/Projects/crmweb.png";
+import  Medimate from "../../Assets/Projects/Medimate.png";
 
 function Projects() {
   return (
@@ -29,16 +30,24 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Mailex}
+              imgPath={youtube}
               isBlog={false}
-              title="Ai Email Automation Chrome Extension"
-              description="I built an advanced AI Email Automation Chrome Extension that helps professionals handle their inbox with zero manual effort. After installing the extension, users can sign in securely using Google OAuth, granting the extension access to the Gmail API for reading and responding to emails.
-The extension automatically fetches all unread emails from the last 7 days, processes them, and sends these email contents to Google Gemini AI, which generates smart, context-aware replies. Once the response is generated, the system uses the Gmail API to automatically send the reply to the original sender.
-The extension uses MIME encoding and base64-safe formatting to ensure the email is structured properly when sent through Gmail’s API."              
-              demoLink=""
+              title="AI-Driven News Analysis & Video Content Generator"
+              description="Built an end-to-end AI automation pipeline that fetches live news, filters noise, ranks relevance, and transforms selected stories into YouTube-ready content. The system applies relevance scoring with primary and backup news selection to ensure consistent output while handling multiple news items through structured parsing. It automates script writing, title generation, thumbnail hook text, and SEO-optimized video descriptions using LLM-based workflows. Google Sheets integration enables structured storage, real-time tracking, and large-scale content scheduling. This solution eliminates manual research, scripting, and optimization, allowing creators to publish high–click-through-rate news videos faster, more consistently, and at scale."              
+              demoLink="https://github.com/jaygupta18/AI-Powered-News-Content-Automation-System"
             />
           </Col>
+           
 
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Medimate}
+              isBlog={false}
+              title="Doctor Appointment Booking WebApp"
+              description="Engineered a web-based doctor appointment booking system that allows patients to search doctors and seamlessly book available time slots. Implemented real-time slot availability and appointment scheduling to minimize booking conflicts and eliminate manual coordination. Developed dedicated Admin and Doctor dashboards to manage daily schedules, view patient details, and track upcoming appointments from a centralized interface, improving operational efficiency and overall user experience."              
+              demoLink="https://client-amber-eight.vercel.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
